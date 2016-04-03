@@ -6,7 +6,7 @@ public class TotalRate {
 	private double excessminute;
 	private double familyrate;
 	private double additionalrate;
-	private double totalrate;
+	private double totalcost;
 
 	public TotalRate(User user) {
 		this.user = user;
@@ -14,10 +14,10 @@ public class TotalRate {
 		setCalculate();
 	}
 	private void setCalculate() {
-		totalrate = getExcessMinuteRate() + getAdditionalLineRate() + getFamilyrate() + getPlanRate();
+		totalcost = getExcessMinuteRate() + getAdditionalLineRate() + getFamilyrate() + getPlanRate();
 	}
 	public double getTotalrate() {
-		return totalrate;
+		return totalcost;
 	}
 	public double getExcessMinuteRate() {
 		if(user.getMinutesofuse() > plan.getIncludedMinutes()) {
