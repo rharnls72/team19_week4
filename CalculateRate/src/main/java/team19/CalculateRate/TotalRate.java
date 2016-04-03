@@ -23,8 +23,7 @@ public class TotalRate {
 		if(user.getMinutesofuse() > plan.getIncludedMinutes()) {
 			double temp = user.getMinutesofuse()-plan.getIncludedMinutes();
 			this.excessminute= temp*plan.getExcessminuterate();
-		}
-		else{
+		}else{
 			this.excessminute= 0;
 		}
 		return excessminute;
@@ -41,8 +40,7 @@ public class TotalRate {
 	public double getFamilyrate() {
 		if (user.getNumberofline()>3){ 
 			familyrate = (user.getNumberofline() - 3)*5;
-		}
-		else {
+		}else {
 			familyrate = 0;
 		}
 		return familyrate;
