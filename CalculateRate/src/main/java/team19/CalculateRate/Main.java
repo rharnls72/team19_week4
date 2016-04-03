@@ -2,6 +2,9 @@ package team19.CalculateRate;
 
 import java.util.Scanner;
 public class Main {
+	public Main(){
+		
+	}
 	public static void main(String[] args){
 	  TotalRate totalrate;
 		System.out.print("Type : ");
