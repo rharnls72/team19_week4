@@ -1,7 +1,7 @@
 package team19.CalculateRate;
 
 public class Plan {
-  private double excessminute_rate;
+  private double excessminuterate;
 	private double includedMinutes;
 	private double additionalrate;
 	private double planrate;
