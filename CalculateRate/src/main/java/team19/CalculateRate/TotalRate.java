@@ -48,4 +48,4 @@ public class TotalRate {
 		return plan.getPlanrate();
 	}
 }
-}
+
