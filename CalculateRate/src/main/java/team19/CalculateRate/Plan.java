@@ -16,13 +16,13 @@ public class Plan {
 			this.planrate = gold.getPlanrate();
 		}else if("SILVER".equals(user.getType())){
 			silver = new Silver();
-			this.excessminute_rate = silver.getExcessminuterate();
+			this.excessminuterate = silver.getExcessminuterate();
 			this.includedMinutes = silver.getIncludedMinutes();
 			this.additionalrate = silver.getAdditionalrate();
 			this.planrate = silver.getPlanrate();
 		}
 	}
-	public double getExcessminute_rate() {
+	public double getExcessminuterate() {
 		return excessminuterate; 
 	}
 	public double getIncludedMinutes() {
