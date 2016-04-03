@@ -9,7 +9,7 @@ public class Main {
 	  TotalRate totalrate;
 		System.out.print("Type : ");
 		Scanner input = new Scanner(System.in);
-		String type = input.nextLine();
+		String type = input.nextLine().toUpperCase();
 		System.out.print("Line : ");
 		int line = input.nextInt();
 		System.out.print("Minutes : ");
