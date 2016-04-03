@@ -1,4 +1,4 @@
-package team19.CalculateRate;
+package CalculateRate;
 
 public class Gold {
   	private double gexcessminuterate = 0.45;
