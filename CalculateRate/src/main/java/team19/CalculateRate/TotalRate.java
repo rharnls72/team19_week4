@@ -22,7 +22,7 @@ public class TotalRate {
 	public double getExcessMinuteRate() {
 		if(user.getMinutesofuse() > plan.getIncludedMinutes()) {
 			double temp = user.getMinutesofuse()-plan.getIncludedMinutes();
-			this.excessminute= temp*plan.getExcessminute_rate();
+			this.excessminute= temp*plan.getExcessminuterate();
 		}
 		else
 			this.excessminute= 0;
@@ -31,7 +31,7 @@ public class TotalRate {
 	public double getAdditionalLineRate() {
 		int temp = user.getNumberofline()-1;
 		if(temp<3){
-			additionalrate = plan.getAdditional_rate()*temp;
+			additionalrate = plan.getAdditionalrate()*temp;
 		}
 		return additionalrate;
 	}
