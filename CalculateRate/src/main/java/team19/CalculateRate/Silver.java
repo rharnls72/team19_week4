@@ -11,7 +11,7 @@ public class Silver {
 	public double getIncludedMinutes() {
 		return sincludedMinutes;
 	}
-	public double getAdditional_rate() {
+	public double getAdditionalrate() {
 		return sadditionalrate;
 	}
 	public double getPlanrate() {
