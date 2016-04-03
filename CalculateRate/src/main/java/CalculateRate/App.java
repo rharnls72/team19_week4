@@ -1,4 +1,4 @@
-package team19.CalculateRate;
+package CalculateRate;
 
 import java.util.Scanner;
 public class App {
