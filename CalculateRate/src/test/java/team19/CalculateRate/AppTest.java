@@ -1,4 +1,4 @@
-package team19.a;
+package team19.CalculateRate;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
