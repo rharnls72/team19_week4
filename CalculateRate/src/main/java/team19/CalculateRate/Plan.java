@@ -3,33 +3,33 @@ package team19.CalculateRate;
 public class Plan {
   private double excessminute_rate;
 	private double includedMinutes;
-	private double additional_rate;
+	private double additionalrate;
 	private double planrate;
 	Gold gold;
 	Silver silver;
 	public Plan(User user){
 		if("gold".equals(user.getType())){
 			gold = new Gold();
-			this.excessminute_rate = gold.getExcessminute_rate();
+			this.excessminuterate = gold.getExcessminuterate();
 			this.includedMinutes = gold.getIncludedMinutes();
-			this.additional_rate = gold.getAdditional_rate();
+			this.additionalrate = gold.getAdditionalrate();
 			this.planrate = gold.getPlanrate();
 		}else if("silver".equals(user.getType())){
 			silver = new Silver();
-			this.excessminute_rate = silver.getExcessminute_rate();
+			this.excessminute_rate = silver.getExcessminuterate();
 			this.includedMinutes = silver.getIncludedMinutes();
-			this.additional_rate = silver.getAdditional_rate();
+			this.additionalrate = silver.getAdditionalrate();
 			this.planrate = silver.getPlanrate();
 		}
 	}
 	public double getExcessminute_rate() {
-		return excessminute_rate; 
+		return excessminuterate; 
 	}
 	public double getIncludedMinutes() {
 		return includedMinutes; 
 	}
 	public double getAdditional_rate() {
-		return additional_rate;
+		return additionalrate;
 	}
 	public double getPlanrate() {
 		return planrate;
