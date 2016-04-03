@@ -2,7 +2,7 @@ package team19.CalculateRate;
 
 import java.util.Scanner;
 public class Main {
-	public Main(){
+	private Main(){
 		
 	}
 	public static void main(String[] args){
