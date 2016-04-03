@@ -1,8 +1,8 @@
 package team19.CalculateRate;
 
 import java.util.Scanner;
-public class Main {
-	private Main(){
+public class App {
+	private App(){
 		
 	}
 	public static void main(String[] args){
