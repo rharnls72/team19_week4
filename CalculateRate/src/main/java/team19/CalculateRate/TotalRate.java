@@ -32,6 +32,8 @@ public class TotalRate {
 		int temp = user.getNumberofline()-1;
 		if(temp<3){
 			additionalrate = plan.getAdditionalrate()*temp;
+		}else{
+			additionalrate = plan.getAdditionalrate()*2;
 		}
 		return additionalrate;
 	}
