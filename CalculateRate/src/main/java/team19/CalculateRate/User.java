@@ -4,7 +4,6 @@ public class User {
   private String name;
 	private String type;
 	private int numberofline;
-	private boolean family;
 	private double minutesofuse;
 	
 	public User(String type, int numberofline, double minutesofuse) {
