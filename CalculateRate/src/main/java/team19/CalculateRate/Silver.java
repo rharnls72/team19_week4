@@ -1,20 +1,20 @@
 package team19.CalculateRate;
 
 public class Silver {
-  	private double s_excessminute_rate = 0.54;
-	private double s_includedMinutes = 500;
-	private double s_additional_rate = 21.50;
-	private double s_planrate = 29.95;
-	public double getExcessminute_rate() {
-		return s_excessminute_rate;
+  	private double sexcessminuterate = 0.54;
+	private double sincludedMinutes = 500;
+	private double sadditionalrate = 21.50;
+	private double splanrate = 29.95;
+	public double getExcessminuterate() {
+		return sexcessminuterate;
 	}
 	public double getIncludedMinutes() {
-		return s_includedMinutes;
+		return sincludedMinutes;
 	}
 	public double getAdditional_rate() {
-		return s_additional_rate;
+		return sadditionalrate;
 	}
 	public double getPlanrate() {
-		return s_planrate;
+		return splanrate;
 	}
 }
