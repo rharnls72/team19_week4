@@ -8,13 +8,13 @@ public class Plan {
 	Gold gold;
 	Silver silver;
 	public Plan(User user){
-		if("gold".equals(user.getType())){
+		if("GOLD".equals(user.getType())){
 			gold = new Gold();
 			this.excessminuterate = gold.getExcessminuterate();
 			this.includedMinutes = gold.getIncludedMinutes();
 			this.additionalrate = gold.getAdditionalrate();
 			this.planrate = gold.getPlanrate();
-		}else if("silver".equals(user.getType())){
+		}else if("SILVER".equals(user.getType())){
 			silver = new Silver();
 			this.excessminute_rate = silver.getExcessminuterate();
 			this.includedMinutes = silver.getIncludedMinutes();
