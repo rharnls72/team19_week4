@@ -28,7 +28,7 @@ public class Plan {
 	public double getIncludedMinutes() {
 		return includedMinutes; 
 	}
-	public double getAdditional_rate() {
+	public double getAdditionalrate() {
 		return additionalrate;
 	}
 	public double getPlanrate() {
