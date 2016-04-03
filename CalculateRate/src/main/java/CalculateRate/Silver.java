@@ -1,4 +1,4 @@
-package team19.CalculateRate;
+package CalculateRate;
 
 public class Silver {
   	private double sexcessminuterate = 0.54;
