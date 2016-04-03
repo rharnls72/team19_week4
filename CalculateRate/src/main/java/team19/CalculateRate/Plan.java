@@ -5,8 +5,8 @@ public class Plan {
 	private double includedMinutes;
 	private double additionalrate;
 	private double planrate;
-	Gold gold;
-	Silver silver;
+	private Gold gold;
+	private Silver silver;
 	public Plan(User user){
 		if("GOLD".equals(user.getType())){
 			gold = new Gold();
