@@ -1,4 +1,4 @@
-package team19.CalculateRate;
+package CalculateRate;
 
 public class TotalRate {
 	private User user;
